@@ -33,7 +33,7 @@
     "@nestjs/platform-express": "^10.3.8",
     "@nestjs/platform-socket.io": "^10.3.8",
     "@nestjs/serve-static": "^4.0.0",
-    "@nestjs/swagger": "^11.2.3",
+    "@nestjs/swagger": "^10.4.4",
     "@nestjs/typeorm": "^10.0.2",
     "@nestjs/websockets": "^10.3.8",
     "bcrypt": "^5.1.1",
