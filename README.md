@@ -2,6 +2,16 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
+### All the backend to manage a product shop. In this case, it's prepared for the minimalist e-commerce.
+
+## I use in this project this technologies:
+
+### NestJS
+
+### PostgreSQL
+
+### Express
+
 # Minimalist e-commerce API
 
 1. Clone the project
