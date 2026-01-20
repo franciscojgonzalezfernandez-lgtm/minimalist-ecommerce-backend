@@ -67,3 +67,5 @@ Complete E-Commerce Experience
 ```
 
 Built with ❤️ using enterprise-grade NestJS (2026 stack)
+
+**⭐ Star for more APIs**
