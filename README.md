@@ -1,41 +1,71 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Minimalist E-Commerce Backend - Production Ready API
 
-### All the backend to manage a product shop. In this case, it's prepared for the minimalist e-commerce.
+## 🚀 About This Project
 
-## I use in this project this technologies:
+**The complete backend API** powering the [Minimalist E-Commerce Frontend](https://franciscojgonzalezfernandez-lgtm.github.io/minimalist-e-commerce/). Built with **NestJS** for enterprise-grade scalability, featuring full product management, authentication, and database integration.
 
-### NestJS
+**[📖 API Docs](https://minimalist-ecommerce-backend.onrender.com/api/)** | **[ 📖 Frontend Demo](https://franciscojgonzalezfernandez-lgtm.github.io/minimalist-e-commerce/)**
 
-### PostgreSQL
+## ✨ Featured Technologies
 
-### Express
+| Category     | Tech Stack              |
+|--------------|-------------------------|
+| Framework    | **NestJS** (Node.js)    |
+| Language     | TypeScript              |
+| Database     | PostgreSQL              |
+| ORM          | TypeORM / Prisma        |
+| Container    | Docker + Docker Compose |
+| Linting      | ESLint + Prettier       |
+| Testing      | Jest                    |
 
-# Minimalist e-commerce API
 
-1. Clone the project
-2. `yarn install`
-3. Clone the file `.env.template` and rename to `.env`
-4. Change the environment variables
-5. set up the data base.
+## 🎯 Key Features
 
-```
-docker-compose up -d
-```
+- **Full Product CRUD** - Create, read, update, delete products
+- **User Authentication** - JWT tokens + secure sessions
+- **RESTful API** - Clean endpoints with validation
+- **Database Migrations** - Schema management
+- **Docker Ready** - One-command deployment
+- **Production Config** - Environment variables + logging
 
-6. Get up the server:
+**Powers the complete e-commerce flow** - cart, orders, inventory
 
-```
+## 🎯 Getting Started
+
+```bash
+# Clone & Install
+git clone https://github.com/franciscojgonzalezfernandez-lgtm/minimalist-ecommerce-backend.git
+cd minimalist-ecommerce-backend
+npm install
+
+# Development (with hot reload)
 npm run start:dev
-yarn start:dev
 
+# Production Build
+npm run build:prod
+
+# Docker (Postgres + API)
+docker-compose up -d
+🗄️ Database Setup
+text
+# docker-compose.yaml excerpt
+postgres:
+  image: postgres:16
+  environment:
+    POSTGRES_DB: ecommerce
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: password
+📊 API Endpoints
+Method	Endpoint	Description
+POST	/auth/login	User authentication
+GET	/products	List all products
+POST	/products	Create new product
+PUT	/products/:id	Update product
+DELETE	/products/:id	Delete product
+🎯 Full Stack Demo
+Complete E-Commerce Experience
 ```
 
-7. Execute SEED
+Built with ❤️ using enterprise-grade NestJS (2026 stack)
 
-```
-http://localhost:3000/api/seed
-```
-
-# Production notes:
+**⭐ Star for more APIs**
